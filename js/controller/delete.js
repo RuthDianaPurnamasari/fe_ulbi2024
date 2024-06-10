@@ -1,6 +1,6 @@
 function deleteData(IDHAPUS) {
     var presensiId = IDHAPUS;
-    var target_url = "ws-ruth2024-458a1e70d2e1.herokuapp.com/delete/" + presensiId;
+    var target_url = "https://ws-ruth2024-458a1e70d2e1.herokuapp.com/delete/" + presensiId;
 
     var requestOptions = {
         method: 'DELETE',
